@@ -17,25 +17,21 @@ var invoice = new Invoice ();
 - Collect the invoice information from your ERP or your Database
 
 ```
-
 invoice. DateTimeIssued = DateTime.UtcNow;
 invoice.InternalId = "IID001";
 invoice.ExtraDiscountAmount = 5;
-
 ```
 
 - Initialize a new generic _HttpClientHelper_ type of type _Invoice_ by using object initializers.
 
 ```
-
 IHttpClientHelper<Invoice> helper = new HttpClientHelper<Invoice>();
-
 ```
 
 - Pass the URL of the SP01 Middleware (e-Seal Solution) as the first _Parameter_ and the initalized **invoice** to generic _PostAsync_ method.
 
 ```
- var url = "<Middleware Ulr>";
-            var result = default(ResponseModel);
-            helper.PostAsync<ResponseModel>(url, invoice).ContinueWith(t => result = t.Result);
+var url = "<Middleware Ulr>";
+var result = default(ResponseModel);
+helper.PostAsync<ResponseModel>(url, invoice).ContinueWith(t => result = t.Result);
 ```
