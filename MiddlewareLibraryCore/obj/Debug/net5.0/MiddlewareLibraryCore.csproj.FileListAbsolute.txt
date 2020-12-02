@@ -1,0 +1,12 @@
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.csprojAssemblyReference.cache
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.AssemblyInfoInputs.cache
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.AssemblyInfo.cs
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.csproj.CoreCompileInputs.cache
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\bin\Debug\net5.0\MiddlewareLibraryCore.deps.json
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\bin\Debug\net5.0\MiddlewareLibraryCore.dll
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\bin\Debug\net5.0\ref\MiddlewareLibraryCore.dll
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\bin\Debug\net5.0\MiddlewareLibraryCore.pdb
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.dll
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\ref\MiddlewareLibraryCore.dll
+E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibraryCore\obj\Debug\net5.0\MiddlewareLibraryCore.pdb
