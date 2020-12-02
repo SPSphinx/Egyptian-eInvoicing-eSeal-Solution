@@ -1,1 +1,1 @@
-#Egyptian eInvoicing eSeal Solution Provider
+# Egyptian eInvoicing eSeal Solution Provider
