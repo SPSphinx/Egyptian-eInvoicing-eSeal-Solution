@@ -6,8 +6,12 @@ SP01 Middleware (e-Seal Solution) is a smart service to deliver the eInvoice fro
 
 **MiddlwareLibraryCore** is the main library to communicate with the SP01 Middleware (e-Seal Solution)
 
+- Create new instant from _Invoice_ class
+
 ```
 
 var invoice = new Invoice ();
 
 ```
+
+- Collect the invoice information from your ERP or your Database
