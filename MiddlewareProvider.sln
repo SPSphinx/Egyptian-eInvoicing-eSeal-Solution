@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareLibraryCore", "Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareLibrary", "MiddlewareLibrary\MiddlewareLibrary.csproj", "{D8E5F4DB-B6C8-498C-9AA1-361B62AF4732}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareConsoleCore", "MiddlewareConsoleCore\MiddlewareConsoleCore.csproj", "{489D2EEB-48F0-44AF-8EAA-E318634F94D7}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +46,17 @@ Global
 		{D8E5F4DB-B6C8-498C-9AA1-361B62AF4732}.Release|x64.Build.0 = Debug|Any CPU
 		{D8E5F4DB-B6C8-498C-9AA1-361B62AF4732}.Release|x86.ActiveCfg = Debug|Any CPU
 		{D8E5F4DB-B6C8-498C-9AA1-361B62AF4732}.Release|x86.Build.0 = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|x64.Build.0 = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Debug|x86.Build.0 = Debug|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|x64.ActiveCfg = Release|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|x64.Build.0 = Release|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{489D2EEB-48F0-44AF-8EAA-E318634F94D7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

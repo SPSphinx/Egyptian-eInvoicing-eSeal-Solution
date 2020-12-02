@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj": {}
+  },
+  "projects": {
+    "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
+        "projectName": "MiddlewareConsoleCore",
+        "projectPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
+        "packagesPath": "C:\\Users\\Osama Diab\\.nuget\\packages\\",
+        "outputPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Osama Diab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj": {
+                "projectPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj",
+        "projectName": "MiddlewareLibraryCore",
+        "projectPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj",
+        "packagesPath": "C:\\Users\\Osama Diab\\.nuget\\packages\\",
+        "outputPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Osama Diab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiddlewareLibraryCore</name>
+    </assembly>
+    <members>
+        <member name="T:MiddlewareLibraryCore.Invoice">
+            <summary>
+            Invoice data structure 
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.Receiver">
+            <summary>
+            Structure representing the receiver
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.DateTimeIssued">
+            <summary>
+            The date and time when the document was issued. Date and time cannot be in future.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.InternalId">
+            <summary>
+            Internal document ID used to link back to the ERP document number. Value defined by the submitter.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.Currency">
+            <summary>
+            Currency code used from ISO 4217.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.CurrencyRate">
+            <summary>
+            Exchange rate of the Egyptian bank on the day of invoicing used to convert currency sold to the value of currency EGP. Mandatory if currencySold is not EGP.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.PurchaseOrderReference">
+            <summary>
+            Optional: reference to purchase order that this document is related to.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.PurchaseOrderDescription">
+            <summary>
+            Optional: Additional information about the purchase order provided to the recipient of the document.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.SalesOrderReference">
+            <summary>
+            Optional: Reference to the previous sales order for informational purposes.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.SalesOrderDescription">
+            <summary>
+            Optional: Additional information about the sales order provided to the recipient of the document.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.ProformaInvoiceNumber">
+            <summary>
+            Optional: Reference to the previous proforma invoice.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.Payment">
+            <summary>
+            Optional: Structure containing fields providing information on how payments needs to be made.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.Delivery">
+            <summary>
+            Optional: Structure containing fields providing information on how the delivery of goods
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.ExtraDiscountAmount">
+            <summary>
+            Additional discount amount applied at the level of the overall document, not individual lines.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Invoice.Lines">
+            <summary>
+            Invoice lines of the invoice. Needs to have at least one invoice line.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.InvoiceLine">
+            <summary>
+            Invoice lines of the invoice
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.InternalCode">
+            <summary>
+            Internal code used for the product being sold
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.IsGs1">
+            <summary>
+            True to use GS1 code, otherwise use GPC code, Must be false for this version 
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Description">
+            <summary>
+            Description of the item being sold.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Quantity">
+            <summary>
+            Number of units of the defined unit type being sold. Number should be larger than 0.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Amount">
+            <summary>
+            Price of unit of goods/services sold 
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Unit">
+            <summary>
+            Code of the unit type
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.ValueDifference">
+            <summary>
+            Value difference when selling goods already taxed
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Discount">
+            <summary>
+            Optional: the structure defining the discount applied on a single unit sold.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.Taxes">
+            <summary>
+            Array of taxes applied on a single unit sold.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.InvoiceLine.TaxesRate">
+            <summary>
+            Array of taxes value applied on a single unit sold.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.Receiver">
+            <summary>
+            Representing the receiver information
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Country">
+            <summary>
+            Country represented by ISO-3166-2 2 symbol code of the countries. Must be EG for internal business issuers.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Governate">
+            <summary>
+            Governorate information as textual value
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.RegionCity">
+            <summary>
+            Region and city information as textual value
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Street">
+            <summary>
+            street information
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.BuildingNumber">
+            <summary>
+            building information (number, name or both)
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.PostalCode">
+            <summary>
+            Optional: Postal code
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Floor">
+            <summary>
+            Optional: the floor number
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Room">
+            <summary>
+            Optional: the room/flat number in the floor
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Landmark">
+            <summary>
+            Optional: nearest landmark to the address
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.AdditionalInformation">
+            <summary>
+            Optional: any additional information to the address
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Type">
+            <summary>
+            Type of the issuer - supported values - B for business in Egypt, P for natural person, F for foreigner.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Id">
+            <summary>
+            Registration number. For business in Egypt must be registration number. For residents must be national ID. For foreign buyers must be VAT ID of the foreign company. Optional if person buyer and invoice amount less than threshold limit defined. Receiver and issuer cannot be the same.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Receiver.Name">
+            <summary>
+            Registration name of the company or name and surname of the person. Optional if person buyer and invoice amount less than threshold limit defined.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.Payment">
+            <summary>
+            Structure containing fields providing information on how payments needs to be made.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.BankName">
+            <summary>
+            Optional: Name of the bank of document issuer.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.BankAddress">
+            <summary>
+            Optional: Address of the bank of document issuer. Captured as single line of text, not a structure.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.BankAccountNo">
+            <summary>
+            Optional: Local bank account number in the bank
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.BankAccountIban">
+            <summary>
+            Optional: International bank account number used primarily for international documents.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.SwiftCode">
+            <summary>
+            Optional: International Swift code of the bank.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Payment.Terms">
+            <summary>
+            Optional: Description of the payment terms describing when and how payments needs to be made, for example.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.Delivery">
+            <summary>
+            Structure containing fields providing information on how the delivery of goods
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.Approach">
+            <summary>
+            Optional: Information on the approach for delivery used, means of transportation.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.Packaging">
+            <summary>
+            Optional: Information on types of packages used when delivering the goods
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.DateValidity">
+            <summary>
+            Optional: Validity date for exported products.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.ExportPort">
+            <summary>
+            Optional: Port exporting the goods.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.CountryOfOrigin">
+            <summary>
+            Optional: Country of origin of goods/services. Country represented by ISO-3166-2 2 symbol code of the countries.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.GrossWeight">
+            <summary>
+            Optional: Total weight of the goods delivered. Value in kilograms.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.NetWeight">
+            <summary>
+            Optional: Net weight of the goods delivered. Value in kilograms.
+            </summary>
+        </member>
+        <member name="P:MiddlewareLibraryCore.Delivery.Terms">
+            <summary>
+            Optional: Delivery terms/shipping terms information.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.DocumentRejectedModel">
+            <summary>
+            List of documents that are not accepted together with their internal IDs and error information.
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.ErrorResponseModel">
+            <summary>
+            Error information detailing why the document was not accepted in this submission
+            </summary>
+        </member>
+        <member name="T:MiddlewareLibraryCore.DocumentAcceptedModel">
+            <summary>
+            List of documents that are accepted together with their internal IDs and newly assigned IDs.
+            </summary>
+        </member>
+    </members>
+</doc>

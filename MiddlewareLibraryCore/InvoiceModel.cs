@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 namespace MiddlewareLibraryCore
 {
     /// <summary>
-    /// Invoice data structure
+    /// Invoice data structure 
     /// </summary>
     public class Invoice
     {
