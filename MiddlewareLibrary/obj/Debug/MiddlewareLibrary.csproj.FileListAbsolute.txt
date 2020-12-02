@@ -1,6 +1,0 @@
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\bin\Debug\MiddlewareLibrary.dll
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\bin\Debug\MiddlewareLibrary.pdb
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\obj\Debug\MiddlewareLibrary.csprojAssemblyReference.cache
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\obj\Debug\MiddlewareLibrary.csproj.CoreCompileInputs.cache
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\obj\Debug\MiddlewareLibrary.dll
-E:\DevOps - 2020\Middleware\MiddlewareProvider\MiddlewareLibrary\obj\Debug\MiddlewareLibrary.pdb
