@@ -9,9 +9,7 @@ SP01 Middleware (e-Seal Solution) is a smart service to deliver the eInvoice fro
 - Initialize a new _Invoice_ type by using object initializers.
 
 ```
-
 var invoice = new Invoice ();
-
 ```
 
 - Collect the invoice information from your ERP or your Database
