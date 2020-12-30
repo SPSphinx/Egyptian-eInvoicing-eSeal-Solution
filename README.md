@@ -12,7 +12,7 @@ SP01 Middleware (e-Seal Solution) is a smart service to deliver the eInvoice fro
 var invoice = new Invoice ();
 ```
 
-- Collect the invoice information from your ERP or your Database
+- Recieves the invoice information from your ERP or your Database
 
 ```
 invoice. DateTimeIssued = DateTime.UtcNow;
