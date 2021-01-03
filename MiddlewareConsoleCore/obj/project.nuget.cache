@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h8wGqH/zHgxkagPRvuSOUYQj6UPYndyYNcF2Fyho/eYI3Ei3S17NX2HwpNBayXuaEkKET3X0enw+4VLvveuXNw==",
+  "dgSpecHash": "ex7AClStfYkpwSmY+F8JKUvy0m9LQrHAv1EE1t50ARn8nvNSzFun+Cs7NYX7+03ETkhHWEpyFSwp/gYoupcm9A==",
   "success": true,
-  "projectFilePath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
+  "projectFilePath": "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Osama Diab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Osama Diab\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

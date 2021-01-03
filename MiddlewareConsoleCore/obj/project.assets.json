@@ -2845,38 +2845,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Osama Diab\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Osama Diab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
+      "projectUniqueName": "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
       "projectName": "MiddlewareConsoleCore",
-      "projectPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
+      "projectPath": "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareConsoleCore\\MiddlewareConsoleCore.csproj",
       "packagesPath": "C:\\Users\\Osama Diab\\.nuget\\packages\\",
-      "outputPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareConsoleCore\\obj\\",
+      "outputPath": "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareConsoleCore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\Osama Diab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj": {
-              "projectPath": "E:\\DevOps - 2020\\Middleware\\MiddlewareProvider\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj"
+            "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj": {
+              "projectPath": "E:\\DevOps - 2020\\Middleware\\InvoiceMiddlewareSolution\\eSeal-Github\\Egyptian-eInvoicing-eSeal-Solution\\MiddlewareLibraryCore\\MiddlewareLibraryCore.csproj"
             }
           }
         }
@@ -2905,7 +2901,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
